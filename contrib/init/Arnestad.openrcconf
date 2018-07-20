@@ -1,0 +1,26 @@
+# /etc/conf.d/Arnestad: config file for /etc/init.d/Arnestad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/Arnesta/Arnesta.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/Arnestad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/Arnestad.pid"
+
+# Where to write Arnestad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/Arnestad"
+
+# User and group to own Arnestad process
+#BITCOIND_USER="Arnesta"
+#BITCOIND_GROUP="Arnesta"
+
+# Path to Arnestad executable
+#BITCOIND_BIN="/usr/bin/Arnestad"
+
+# Nice value to run Arnestad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

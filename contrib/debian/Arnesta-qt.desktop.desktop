@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Arnesta
+Comment=Arnesta P2P Cryptocurrency
+Exec=Arnesta-qt %u
+Terminal=false
+Type=Application
+Icon=Arnesta128
+MimeType=x-scheme-handler/Arnesta;
+Categories=Office;Finance;
+Name[en_US]=Arnesta-qt.desktop
